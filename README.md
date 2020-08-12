@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
+1.) run command: ng new driver-project
+2.) run command: cd driver-project
+3.) replace all files you can with mine, this will open another local server after you run the command below. The servers communicate. This simply takes the JSON from backend local server and displays it in a better way. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
