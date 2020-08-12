@@ -7,3 +7,5 @@ note: most of the backend was completed in Controllers/Drivers.cs
 
 
 run in visual studio, create solution, its web api so it opens up local host, back-end works perfectly and is scalable. 
+
+forthe angular, open the side branch under branches on this github project, follow that read me now.
