@@ -1,0 +1,21 @@
+
+<table class="table mt-5">
+  <thead>
+    <tr>
+      <th scope="col">Driver</th>
+      <th scope="col">Miles Driven</th>
+      <th scope="col">Average MPH</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr *ngIf="drivers?.length == 0"><td>No data</td></tr>
+    <tr *ngFor="let driver of drivers">
+      <td>{{ driver.Driver }}</td>
+      <td>{{ driver.Miles }}</td>
+      <td>
+          {{ driver.MPH }}
+      </td>
+    </tr>
+  </tbody>
+</table>
